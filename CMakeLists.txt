@@ -4,7 +4,7 @@ project ("Call_the_phone_number")
 
 set(APP_NAME "call_the_phone_number")
 set(DEVELOPER_NAME "RDZDX")
-set(RAM "500") #Ram requirement (in kb)
+set(RAM "1500") #Ram requirement (in kb)
 set(IMSI "123456789" CACHE STRING "Imsi of first SIM-card")
 set(API "Audio Camera Call TCP File HTTP Sensor SIM_card Record SMS_person SMS_SP BitStream Contact LBS MMS ProMng SMSMng Video XML Sec SysStorage Payment BT PUSH UDP SysFile") #Api for app, 
 set(APPID "0") #App id, special values: -1 is personal (imsi), 0 is in developing
